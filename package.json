@@ -1,0 +1,28 @@
+{
+  "name": "lab-19-message-queue-server-and-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "lint": "eslint **/*.js",
+    "jsdoc": "jsdoc -c docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-js/lab-19-message-queue-server-and-logger.git"
+  },
+  "author": "Jagdeep Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-js/lab-19-message-queue-server-and-logger/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-js/lab-19-message-queue-server-and-logger#readme",
+  "dependencies": {
+    "@nmq/q": "^1.0.3",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0"
+  }
+}
