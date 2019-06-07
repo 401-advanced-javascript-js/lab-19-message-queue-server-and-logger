@@ -6,8 +6,7 @@
 ### Author: Jagdeep Singh
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [submission PR](https://github.com/401-advanced-javascript-js/lab-19-message-queue-server-and-logger/pull/1)
 
 #### Documentation
 * [api docs](http://xyz.com) (API servers)
@@ -17,15 +16,12 @@
 #### `.env` requirements
 * `LOGGER_PORT` - Port Number for logger
 * `PORT` - Port for server, different from above logger port
+* `QUEUE_SERVER` - Full URL and PORT of your running queue server
 
 #### Running the app
 * `npm start`
 * `nodemon `
-  
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
+
+![UML](assets/uml.jpeg)
